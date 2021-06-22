@@ -11,8 +11,11 @@ nav>h1 {
 }
 
 main {
-    text-align: center;
     padding: 1em 2em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
 }
 
 .bored-text {
@@ -24,6 +27,7 @@ main {
     font-weight: 400;
     padding: 1.5em 0.75em;
     border-radius: 8px;
+    max-width: 300px;
 }
 
 .change-button {
