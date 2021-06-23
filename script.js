@@ -2,6 +2,8 @@ let textBored = document.querySelector('.bored-text')
 
 let btnChange = document.querySelector('.change-button')
 
+let btnClear = document.querySelector('.clear-button')
+
 let textAuthor = document.querySelector('.author-text')
 
 
@@ -14,4 +16,12 @@ btnChange.addEventListener('click', function() {
             textBored.textContent = data.quotes[0].text
             textAuthor.textContent = ` Written by: ${data.quotes[0].author}`
         })
+})
+
+
+
+btnClear.addEventListener('click', function() {
+
+        textBored.textContent = ''
+
 })
