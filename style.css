@@ -22,12 +22,11 @@ main {
     min-height: 50px;
     text-align: center;
     line-height: 1.4;
-    border: 2px solid #79db75;
     font-style: italic;
     font-weight: 400;
     padding: 1.5em 0.75em;
     border-radius: 8px;
-    width: 300px;
+    width: 350px;
 }
 
 .change-button {
@@ -38,7 +37,7 @@ main {
     cursor: pointer;
     letter-spacing: 0.05em;
     border: 1px solid white;
-    margin-top: 2em;
+    margin-top: 1em;
     text-transform: uppercase;
     font-weight: 800;
     color: white;
@@ -63,4 +62,8 @@ main {
     text-transform: uppercase;
     font-size: 0.7rem;
     font-weight: 800;
+}
+
+#clear-btn{
+    display: none;
 }
