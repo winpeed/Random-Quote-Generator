@@ -23,5 +23,6 @@ btnChange.addEventListener('click', function() {
 btnClear.addEventListener('click', function() {
 
         textBored.textContent = ''
+        textAuthor.textContent = ''
 
 })
