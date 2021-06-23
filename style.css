@@ -24,9 +24,9 @@ main {
     line-height: 1.4;
     font-style: italic;
     font-weight: 400;
-    padding: 1.5em 0.75em;
+    padding: 1.0em 0.5em;
     border-radius: 8px;
-    width: 350px;
+    width: 300px;
 }
 
 .change-button {
